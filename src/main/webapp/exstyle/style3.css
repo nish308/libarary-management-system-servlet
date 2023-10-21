@@ -1,0 +1,37 @@
+@charset "UTF-8"
+/* CSS for the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+/* CSS for the admin profile */
+.profile {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
